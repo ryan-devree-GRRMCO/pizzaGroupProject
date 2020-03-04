@@ -1,0 +1,9 @@
+<h1>Cowabunga, dudes and dudettes!</h1>
+<h2>Wise men say, 'Forgiveness is divine, but never pay full price for late pizza.'</h2>
+<p>pizza half priced after 12 am </p>
+<button (click)="showCart()">shopping cart icon</button>
+<div *ngIf="showMenu">
+<app-menu-detail *ngFor="let item of menu" [item]= "item" ></app-menu-detail>
+</div>
+<app-shopping-cart *ngIf="showShoppingCart" ></app-shopping-cart>
+

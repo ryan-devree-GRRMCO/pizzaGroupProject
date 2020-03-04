@@ -1,0 +1,16 @@
+<ng-container *ngFor="let item of pizzaCart">
+    <div class="parent">
+        <div class="box">
+            <p>{{item.name}}</p>
+            <p>{{item.topping}}</p>
+            <p>price: ${{item.price}}</p>
+            <button (click)="deleteFromCart()">Delete</button>
+        </div>
+        <div class="box2">
+            <img src="http://localhost:3000/{{item.image}}" alt="">
+        </div>
+    </div>
+</ng-container>
+<div id="submit">
+    <button (click)="submit()">Submit Order</button>
+</div>

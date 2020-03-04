@@ -1,0 +1,42 @@
+.parent{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ED1C24;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+Button {
+	box-shadow:inset 0px 1px 8px 0px #c22727;
+	background:linear-gradient(to bottom, #ed1c23 5%, #bf1313 100%);
+	background-color:#ed1c23;
+	border-radius:22px;
+	border:3px solid #f53100;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2ac213;
+}
+Button:hover {
+	background:linear-gradient(to bottom, #bf1313 5%, #ed1c23 100%);
+	background-color:#bf1313;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+
+#submit {
+	margin: 5px;
+	text-align: center;
+}

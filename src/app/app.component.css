@@ -1,0 +1,6 @@
+.head {
+    display: flex;
+    justify-content: center;
+    background-color: #ED1C24;
+    margin: 0;
+}

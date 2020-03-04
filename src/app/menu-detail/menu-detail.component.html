@@ -1,0 +1,11 @@
+<div class="parent">
+    <div class="box">
+        <p>{{item.name}}</p>
+        <p>{{item.topping}}</p>
+        <p>price: ${{item.price}}</p>
+        <button (click)="addToCart()">add to cart</button>
+    </div>
+    <div class="box2">
+        <img src="http://localhost:3000/{{item.image}}" alt="">
+    </div>
+</div>
